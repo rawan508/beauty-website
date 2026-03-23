@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.80857;
+    font-weight: normal;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.svg_icon{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.banner_section {
+    width: 100%;
+    float: left;
+    background-image: url(../img/banner.webp);
+    height: 100vh;
+    scrollbar-width: 3;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #000;
+    margin: 50px 0px;
+
+}
+
+.banner_taital {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 90px;
+    color: #000;
+    line-height: 80px;
+    padding-top: 20px;
+}
+
+.read_bt {
+    width: 170px;
+    float: left;
+    padding-top: 30px;
+}
+
+.read_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #252525;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.read_bt a:hover {
+    color: #ffffff;
+    background-color: #50504f;
+}
+
+/*banner setion end*/
+
+/*product setion start*/
+
+.product_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+    
+}
+
+.product_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #232322;
+    font-weight: bold;
+    margin:10px;
+    
+}
+
+.product_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    color: #50504f;
+    margin: 0px;
+}
+
+a{
+    
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #252525;
+    text-align: center;
+    padding: 10px ;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color: #ffffff;
+    background-color: #50504f;
+}
+
+.card-img-top {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 0px 20px;
+    height: 250px;
+}
+
+.seemore_bt {
+    width: 170px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.seemore_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #252525;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.seemore_bt a:hover {
+    color: #ffffff;
+    background-color: #50504f ;
+}
+
+/*product section end*/
+
+/*about section start*/
+
+
+.about_section {
+    width: 100%;
+    float: left;
+    background-color: #aeaba8;
+    height: auto;
+    padding-bottom: 90px;
+}
+
+.about_section_main {
+    width: 100%;
+    float: left;
+}
+
+.about_taital_main {
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.about_taital {
+    width: 100%;
+    float: left;
+    font-size: 44px;
+    color: #252525;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about_text {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    color: #252525;
+    margin: 0px;
+}
+
+.image_3 {
+    width: 100%;
+    float: left;
+    height: 550px;
+}
+
+.readmore_bt {
+    width: 170px;
+    float: left;
+    padding-top: 30px;
+}
+
+.readmore_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #363636;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.readmore_bt a:hover {
+    color: #50504f;
+    background-color: #ffffff;
+}
+/*about section end*/
+
+/* footer section start */
+
+.clr{
+    clear: both;
+}
+
+form{
+    background-color: #808080;
+    color: #ffffff;
+    height: 100vh;
+    padding: 20px;
+}
+
+/*footer section end*/
